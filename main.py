@@ -1,4 +1,4 @@
-Print('Hello World')
+print('Hello World')
 
 print('class 7')
-
+print('new')
