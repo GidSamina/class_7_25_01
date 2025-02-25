@@ -11,7 +11,7 @@ pipeline {
         stage('Run Script') {
             steps {
                     echo "Running myapp.py on master branch..."
-                    sh 'python3 main.py'
+                    sh 'python main.py'
                 }
             }
         }
