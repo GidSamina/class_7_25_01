@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // This checks out the code from the repository.
-                git 'clone'
+                git (url: 'https://github.com/GidSamina/class_7_25_01.git', branch: 'main'
             }
         }
         stage('Run Script') {
